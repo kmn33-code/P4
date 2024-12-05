@@ -1,6 +1,10 @@
-
+/* DEVELOPER: Kajol Naik, IS117-005, Spring 2024 */
 body {
     background-color: #f6e4fa;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
   }
   
   p {
@@ -29,6 +33,12 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 10px 20px;
   }
+
+  .img-medium {
+    width: 100%;
+    max-width: 300px; 
+    height: auto; 
+    }
 
   h1.text-center {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -95,9 +105,11 @@ body {
  }
 
  footer {
+    margin-top: auto;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: medium;
+    width: 100%;
     background-color: #262327;
     padding: 20px 0;
     bottom: 0;
